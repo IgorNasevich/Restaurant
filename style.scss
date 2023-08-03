@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin commonFontStyle{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header{
+    min-height: 901px;
+    background-image: url(assets/img/header-background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header-container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px 0 154px 0;
+}
+
+.header-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 354px;
+    margin: 0 157px 0 130px;
+}
+
+.header-list__item{
+    
+}
+
+.header-contacts{
+    width: 159px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.header-contacts__number{
+    color: white;
+}
